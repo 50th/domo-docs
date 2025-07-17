@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://www.shouwangrenjian.asia/",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "sw",
+    url: "https://www.shouwangrenjian.asia/",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/favicon.ico",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://www.shouwangrenjian.asia/",
 
   docsDir: "src",
 
@@ -25,11 +25,10 @@ export default hopeTheme({
 
   // 页脚
   footer: "默认页脚",
-  displayFooter: true,
+  // displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
